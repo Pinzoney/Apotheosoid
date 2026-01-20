@@ -1,16 +1,17 @@
 package dev.hytalemodding;
 
+import javax.annotation.Nonnull;
+
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
+
 import dev.hytalemodding.commands.ExampleCommand;
 import dev.hytalemodding.events.ExampleEvent;
 
-import javax.annotation.Nonnull;
+public class Apotheosoid extends JavaPlugin {
 
-public class ExamplePlugin extends JavaPlugin {
-
-    public ExamplePlugin(@Nonnull JavaPluginInit init) {
+    public Apotheosoid(@Nonnull JavaPluginInit init) {
         super(init);
     }
 

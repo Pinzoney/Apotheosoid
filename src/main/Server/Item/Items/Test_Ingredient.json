@@ -1,0 +1,30 @@
+{
+  "TranslationProperties": {
+    "Name": "server.testingredient.name",
+    "Description": "server.testingredient.description"
+  },
+  "Icon": "Icons/ItemsGenerated/testingredient2.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Model": "Items/Ingredients/TestIngredient/Testingredient.blockymodel",
+  "Texture": "Items/Ingredients/TestIngredient/TestIngredient.png",
+  "Set": "Test_Ingredients",
+  "Quality": "Common",
+  "MaxStack": 5,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "OpenCustomUI"
+        }
+      ]
+    }
+  }
+}
