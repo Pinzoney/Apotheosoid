@@ -1,10 +1,9 @@
 $Common = "Common.ui";
 
-@MyTex = PatchStyle(TexturePath: "MyBackground.png")
+@MyTex = PatchStyle(TexturePath: "MyBackground.png");
 
 Group {
   LayoutMode: Center;
-
 
   Group #MyPanel {
     Background: @MyTex;

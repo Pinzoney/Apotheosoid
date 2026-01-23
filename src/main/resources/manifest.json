@@ -2,6 +2,7 @@
   "Group": "Piney Poo LLC.",
   "Name": "Apotheosoid",
   "Version": "0.1.0",
+  "Main": "dev.hytalemodding.Apotheosoid",
   "Description": "Test pack to practice modding and create an Apotheosis-style mod for Hytale",
   "Authors": [
     {
